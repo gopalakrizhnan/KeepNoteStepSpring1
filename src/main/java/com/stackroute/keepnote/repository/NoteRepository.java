@@ -79,8 +79,7 @@ public class NoteRepository {
 		for(int i=0;i<list.size();i++) {
 			if(list.get(i).getNoteId()==noteId) {
 				flag = true;
-			}else {
-				flag = false;
+				break;
 			}
 		}
 		return flag;
